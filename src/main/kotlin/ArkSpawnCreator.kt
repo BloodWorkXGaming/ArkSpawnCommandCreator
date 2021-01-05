@@ -44,8 +44,7 @@ fun main() {
 
             SpawnArea.GRASSLAND to DinoSpawn(Dino.GACHA, 0.5, 0.075),
             SpawnArea.ATOLL to DinoSpawn(Dino.GACHA, 0.5, 0.075),
-
-
+            
             SpawnArea.SNOW_FOREST to DinoSpawn(Dino.SHINEHORN, 0.5, 0.05),
             SpawnArea.ICE_DESERT to DinoSpawn(Dino.SHINEHORN, 0.5, 0.05),
         )
