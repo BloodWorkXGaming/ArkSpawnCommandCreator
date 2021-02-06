@@ -24,29 +24,29 @@ class ArkSpawnCreator(val pairList: MutableList<Pair<SpawnArea, DinoSpawn>> = mu
 fun main() {
     ArkSpawnCreator(
         mutableListOf(
-            SpawnArea.SNOW_FOREST to DinoSpawn(Dino.SNOW_OWL, 1.0, 0.1),
-            SpawnArea.ICE_DESERT to DinoSpawn(Dino.SNOW_OWL, 1.0, 0.1),
+            SpawnArea.SNOW_FOREST to DinoSpawn(Dino.SNOW_OWL, 0.1, 0.01),
+            SpawnArea.ICE_DESERT to DinoSpawn(Dino.SNOW_OWL, 0.1, 0.01),
 
             SpawnArea.SNOW_FOREST to DinoSpawn(Dino.MANAGARMR, 0.01, 0.002),
             SpawnArea.ICE_DESERT to DinoSpawn(Dino.MANAGARMR, 0.01, 0.002),
 
-            SpawnArea.SNOW_FOREST to DinoSpawn(Dino.GRIFFIN, 0.5, 0.075),
-            SpawnArea.ICE_DESERT to DinoSpawn(Dino.GRIFFIN, 0.5, 0.075),
+            SpawnArea.SNOW_FOREST to DinoSpawn(Dino.GRIFFIN, 0.1, 0.0075),
+            SpawnArea.ICE_DESERT to DinoSpawn(Dino.GRIFFIN, 0.1, 0.0075),
 
-            SpawnArea.TUNDRA to DinoSpawn(Dino.REAPER_QUEEN, 0.125, 0.075),
-            SpawnArea.CHALK_HILLS_PLAINS to DinoSpawn(Dino.THORNY_DRAGON, 0.5, 0.05),
+            SpawnArea.TUNDRA to DinoSpawn(Dino.REAPER_QUEEN, 0.1, 0.01),
+            SpawnArea.CHALK_HILLS_PLAINS to DinoSpawn(Dino.THORNY_DRAGON, 0.1, 0.03),
 
-            SpawnArea.SAVANA to DinoSpawn(Dino.GASBAG, 0.1, 0.05),
-            SpawnArea.GRASSLAND to DinoSpawn(Dino.TROPEOGNATHUS, 0.5, 0.05),
+            SpawnArea.SAVANA to DinoSpawn(Dino.GASBAG, 0.1, 0.002),
+            SpawnArea.GRASSLAND to DinoSpawn(Dino.TROPEOGNATHUS, 0.1, 0.005),
 
-            SpawnArea.SAVANA to DinoSpawn(Dino.VULTURE, 1.0, 0.1),
-            SpawnArea.TUNDRA to DinoSpawn(Dino.VULTURE, 1.0, 0.1),
+            SpawnArea.SAVANA to DinoSpawn(Dino.VULTURE, 0.1, 0.005),
+            SpawnArea.TUNDRA to DinoSpawn(Dino.VULTURE, 0.1, 0.005),
 
-            SpawnArea.GRASSLAND to DinoSpawn(Dino.GACHA, 0.5, 0.075),
-            SpawnArea.ATOLL to DinoSpawn(Dino.GACHA, 0.5, 0.075),
+            SpawnArea.GRASSLAND to DinoSpawn(Dino.GACHA, 0.1, 0.001),
+            SpawnArea.ATOLL to DinoSpawn(Dino.GACHA, 0.1, 0.001),
             
-            SpawnArea.SNOW_FOREST to DinoSpawn(Dino.SHINEHORN, 0.5, 0.05),
-            SpawnArea.ICE_DESERT to DinoSpawn(Dino.SHINEHORN, 0.5, 0.05),
+            SpawnArea.SNOW_FOREST to DinoSpawn(Dino.SHINEHORN, 0.1, 0.0005),
+            SpawnArea.ICE_DESERT to DinoSpawn(Dino.SHINEHORN, 0.1, 0.0005),
         )
     ).printAll(false)
 }
